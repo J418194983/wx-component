@@ -1,1 +1,3 @@
-# wx-component
+# 微信组件库
+首先得有 node，并确保 node 版本是 10.13 或以上。
+下载项目执行命令 npx dumi dev 即可查看组件文档
