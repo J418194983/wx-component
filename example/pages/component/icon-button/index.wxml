@@ -1,0 +1,4 @@
+<button open-type="{{openType}}" data-detail="{{dataDetail}}" bindgetuserinfo="getInfo" bindgetphonenumber="getInfo" bindtap="onClick" class="view_container btn-class" style="{{height?height+'rpx;':''}}">
+	<image wx:if="{{url}}" class="img_icon img-class" src="{{url}}"></image>
+	<text class="text_icon text-class">{{text}}{{openType}}</text>
+</button>
